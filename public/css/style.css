@@ -528,7 +528,9 @@ cite img {
 /* ----------------------------------------------- */
 /* FORM */
 /* ----------------------------------------------- */
-
+.section-form {
+  background-color: lightgray;
+}
 .contact-form {
     width: 60%;
     margin: 0 auto;
