@@ -94,7 +94,6 @@ h2:after {
     line-height: 145%;
 }
 
-
 /* ----- ICONS ----- */
 .icon-big {
     font-size: 350%;
@@ -293,6 +292,9 @@ header {
 
 .section-features .long-copy {
     margin-bottom: 30px;
+}
+.feature-title{
+  text-align: center;
 }
 
 
