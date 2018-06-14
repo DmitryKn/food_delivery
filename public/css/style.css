@@ -225,6 +225,10 @@ header {
     float: right;
     list-style: none;
     margin-top: 55px;
+
+
+    /* position: fixed; /* Set the navbar to fixed position */ */
+
 }
 
 .main-nav li {
@@ -409,7 +413,9 @@ header {
 /* ----------------------------------------------- */
 /* LOCATIONS */
 /* ----------------------------------------------- */
-
+.section-cities{
+  background-color: lightgray;
+}
 .box img {
     width: 100%;
     height: auto;
@@ -468,16 +474,13 @@ cite img {
 /* SIGN UP */
 /* ----------------------------------------------- */
 
-.section-plans {
-    background-color: #f4f4f4;
-}
 
 .plan-box {
     background-color: #fff;
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
-    box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 5px 5px #efefef;
 }
 
 .plan-box div {
@@ -500,7 +503,7 @@ cite img {
 .plan-price {
     font-size: 300%;
     margin-bottom: 10px;
-    font-weight: 100;
+    font-weight: 350;
     color: #e67e22;
 }
 
