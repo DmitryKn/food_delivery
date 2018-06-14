@@ -270,8 +270,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
-    box-shadow: 0 2px 2px #efefef;
+    background-color: rgba(67, 70, 72, 0.98); #434648
+    box-shadow: 0 2px 2px #4e4d4d;
     z-index: 9999;
 }
 
@@ -280,7 +280,7 @@ header {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
-    color: #555;
+    color: #c9c9c9;
 }
 
 .sticky .logo {
