@@ -349,7 +349,7 @@ header {
 /* ----------------------------------------------- */
 
 .section-steps {
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
 }
 
 .steps-box {
@@ -369,7 +369,7 @@ header {
 }
 
 .app-screen {
-    width: 40%;
+    width: 100%;
 }
 
 .works-step {
