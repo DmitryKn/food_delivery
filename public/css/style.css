@@ -225,10 +225,6 @@ header {
     float: right;
     list-style: none;
     margin-top: 55px;
-
-
-    /* position: fixed; /* Set the navbar to fixed position */ */
-
 }
 
 .main-nav li {
@@ -287,8 +283,11 @@ header {
     color: #555;
 }
 
-.sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
+.sticky .logo {
+    display: block;
+    height: 60px;
+    margin-top: auto;
+}
 
 /* ----------------------------------------------- */
 /* FEATURES */
