@@ -1,0 +1,24 @@
+{
+  "name": "food_delivery",
+  "version": "1.0.0",
+  "description": "Vegan food delivery\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001bHealthy \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cfood delivery service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryKn/food_delivery.git"
+  },
+  "author": "Dmitry Knyazev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryKn/food_delivery/issues"
+  },
+  "homepage": "https://github.com/DmitryKn/food_delivery#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
