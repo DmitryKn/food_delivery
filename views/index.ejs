@@ -27,6 +27,7 @@
           <li><a href="#works">How it works</a></li>
           <li><a href="#cities">Our cities</a></li>
           <li><a href="#plans">Sign up</a></li>
+          <li><a href="/show">Show response</a></li>
         </ul>
         <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
       </div>
@@ -315,13 +316,13 @@
       <h2>We're happy to hear from you</h2>
     </div>
     <div class="row">
-      <form method="post" action="#" class="contact-form">
+      <form method="post" action="/response" class="contact-form">
         <div class="row">
           <div class="col span-1-of-3">
             <label for="name">Name</label>
           </div>
           <div class="col span-2-of-3">
-            <input type="text" name="name" id="name" placeholder="Your name" required>
+            <input type="text" name="response[name]" id="name" placeholder="Your name" required>
           </div>
         </div>
         <div class="row">
@@ -329,7 +330,7 @@
             <label for="email">Email</label>
           </div>
           <div class="col span-2-of-3">
-            <input type="email" name="email" id="email" placeholder="Your email" required>
+            <input type="email" name="response[email]" id="email" placeholder="Your email" required>
           </div>
         </div>
         <div class="row">
@@ -337,7 +338,7 @@
             <label for="find-us">How did you find us?</label>
           </div>
           <div class="col span-2-of-3">
-            <select name="find-us" id="find-us">
+            <select name="response[find]" id="find-us">
               <option value="friends" selected>Friends</option>
               <option value="search">Search engine</option>
               <option value="ad">Advertisement</option>
@@ -350,7 +351,7 @@
             <label>Newsletter?</label>
           </div>
           <div class="col span-2-of-3">
-            <input type="checkbox" name="news" id="news" checked> Yes, please
+            <input type="checkbox" name="response[news]" id="news" checked> Yes, please
           </div>
         </div>
         <div class="row">
@@ -358,7 +359,7 @@
             <label>Drop us a line</label>
           </div>
           <div class="col span-2-of-3">
-            <textarea name="message" placeholder="Your message"></textarea>
+            <textarea name="response[message]" placeholder="Your message"></textarea>
           </div>
         </div>
         <div class="row">
