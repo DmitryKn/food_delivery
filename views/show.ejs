@@ -1,12 +1,14 @@
 <h1>Show DB results: </h1>
 <a href="/">HOME</a>
+<hr>
 
 
 <% result.forEach((item) => { %>
   <div>
-    <p>Name: <%= item.name%></p>
-    <p>Email: <%= item.email%></p>
-    <p>Message: "<%= item.message%>"</p>
+    <p><strong>ID number:</strong> <%= item.id %>; </p>
+    <p><strong>Name: </strong><%= item.name%>; </p>
+    <p><strong>Email:</strong> <%= item.email%>; </p>
+    <p><strong>Message:</strong> "<%= item.message%>";</p>
   </div>
   <hr>
 

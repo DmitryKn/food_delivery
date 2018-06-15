@@ -1,5 +1,5 @@
-# Healthy Express - premium food delivery service.
+#  Web Site: Healthy Express - premium food delivery service.
 
-# Tools: HTML + CSS, JavaScript, jquery, Node + Express, MySQL
+Tools: HTML + CSS, JavaScript, jquery, Node + Express, MySQL
 
-# to start: node app.js
+To start: node app.js

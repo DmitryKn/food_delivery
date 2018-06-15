@@ -1,14 +1,20 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const mysql = require('mysql')
+const mysql = require('mysql');
 
 // DB config
 const con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "root",
-  database: "delivery"
+  // host: "localhost",
+  // user: "root",
+  // password: "root",
+  // database: "delivery" //local
+
+  //---- online
+  host: "sql9.freemysqlhosting.net",
+  user: "sql9243075",
+  password: "zjbLkVq5Wc",
+  database: "sql9243075"
 });
 con.connect(function(err) {
   if (err) throw err;
@@ -34,7 +40,6 @@ app.post('/response', (req, res)=>{
     }
     res.redirect('/')
   })
-  con.end();
 })
 
 app.get('/show',(req, res) => {
@@ -43,10 +48,14 @@ app.get('/show',(req, res) => {
     if(err) throw error;
     res.render('show', {result: result});
   })
-  //con.end();
 })
 
-//Port
-app.listen(3000, () => {
-  console.log("Server started. Port 3000");
+//==== local
+// app.listen(3000, () => {
+//   console.log("Server started. Port 3000");
+// })
+
+//=====cloud
+app.listen(process.env.PORT, process.env.IP, (req, res) => {
+  console.log("Server has started.")
 })
